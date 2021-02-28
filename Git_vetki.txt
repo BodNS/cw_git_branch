@@ -1,0 +1,18 @@
+¬етки
+
+git branch
+git branch -v
+
+создание
+1 git branch test
+2 git checkout -b test2 (равносильно branch+checkout)
+
+переключение 
+git checkout test
+
+сли€ние веток (изменений)
+git checkout main
+git merge test2
+
+удаление веток
+$ git branch -d test
